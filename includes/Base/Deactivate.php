@@ -1,6 +1,9 @@
 <?php
-
-class SmeifyDeactivator {
+/**
+ * @package SmeifyPlugin
+ */
+namespace Includes\Base;
+class Deactivate {
 
     public static function deactivate() {
         flush_rewrite_rules();

@@ -1,0 +1,20 @@
+{
+    "name": "adewalecharles/smeify-plugin",
+    "description": "A WordPress plugin for smeify.com, Smeify is a Stable Automated Solution for Airtime and Data businesses in Nigeria",
+    "type": "project",
+    "require": {},
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "adewalecharles",
+            "email": "shyprince1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Includes\\": "includes/"
+        }
+    }
+}
+
